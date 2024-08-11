@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A888DD82C6943EB00B0DE19 /* KingpinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */; };
+		6A888DDA2C6943EB00B0DE19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DD92C6943EB00B0DE19 /* ContentView.swift */; };
+		6A888DDC2C6943ED00B0DE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */; };
+		6A888DDF2C6943ED00B0DE19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */; };
+		6A888DE92C6943ED00B0DE19 /* KingpinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */; };
+		6A888DF32C6943ED00B0DE19 /* KingpinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */; };
+		6A888DF52C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A888DE52C6943ED00B0DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A888DD32C6943EB00B0DE19;
+			remoteInfo = Kingpin;
+		};
+		6A888DEF2C6943ED00B0DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A888DD32C6943EB00B0DE19;
+			remoteInfo = Kingpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A888DD42C6943EB00B0DE19 /* Kingpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kingpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinApp.swift; sourceTree = "<group>"; };
+		6A888DD92C6943EB00B0DE19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinTests.swift; sourceTree = "<group>"; };
+		6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITests.swift; sourceTree = "<group>"; };
+		6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A888DD12C6943EB00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE12C6943ED00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEB2C6943ED00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A888DCB2C6943EB00B0DE19 = {
+			isa = PBXGroup;
+			children = (
+				6A888DD62C6943EB00B0DE19 /* Kingpin */,
+				6A888DE72C6943ED00B0DE19 /* KingpinTests */,
+				6A888DF12C6943ED00B0DE19 /* KingpinUITests */,
+				6A888DD52C6943EB00B0DE19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A888DD52C6943EB00B0DE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DD42C6943EB00B0DE19 /* Kingpin.app */,
+				6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */,
+				6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A888DD62C6943EB00B0DE19 /* Kingpin */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */,
+				6A888DD92C6943EB00B0DE19 /* ContentView.swift */,
+				6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */,
+				6A888DDD2C6943ED00B0DE19 /* Preview Content */,
+			);
+			path = Kingpin;
+			sourceTree = "<group>";
+		};
+		6A888DDD2C6943ED00B0DE19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A888DE72C6943ED00B0DE19 /* KingpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */,
+			);
+			path = KingpinTests;
+			sourceTree = "<group>";
+		};
+		6A888DF12C6943ED00B0DE19 /* KingpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */,
+				6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */,
+			);
+			path = KingpinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A888DD32C6943EB00B0DE19 /* Kingpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */;
+			buildPhases = (
+				6A888DD02C6943EB00B0DE19 /* Sources */,
+				6A888DD12C6943EB00B0DE19 /* Frameworks */,
+				6A888DD22C6943EB00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingpin;
+			productName = Kingpin;
+			productReference = 6A888DD42C6943EB00B0DE19 /* Kingpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A888DE32C6943ED00B0DE19 /* KingpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */;
+			buildPhases = (
+				6A888DE02C6943ED00B0DE19 /* Sources */,
+				6A888DE12C6943ED00B0DE19 /* Frameworks */,
+				6A888DE22C6943ED00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */,
+			);
+			name = KingpinTests;
+			productName = KingpinTests;
+			productReference = 6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A888DED2C6943ED00B0DE19 /* KingpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */;
+			buildPhases = (
+				6A888DEA2C6943ED00B0DE19 /* Sources */,
+				6A888DEB2C6943ED00B0DE19 /* Frameworks */,
+				6A888DEC2C6943ED00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */,
+			);
+			name = KingpinUITests;
+			productName = KingpinUITests;
+			productReference = 6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A888DCC2C6943EB00B0DE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6A888DD32C6943EB00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6A888DE32C6943ED00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A888DD32C6943EB00B0DE19;
+					};
+					6A888DED2C6943ED00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A888DD32C6943EB00B0DE19;
+					};
+				};
+			};
+			buildConfigurationList = 6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A888DCB2C6943EB00B0DE19;
+			productRefGroup = 6A888DD52C6943EB00B0DE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A888DD32C6943EB00B0DE19 /* Kingpin */,
+				6A888DE32C6943ED00B0DE19 /* KingpinTests */,
+				6A888DED2C6943ED00B0DE19 /* KingpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A888DD22C6943EB00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DDF2C6943ED00B0DE19 /* Preview Assets.xcassets in Resources */,
+				6A888DDC2C6943ED00B0DE19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE22C6943ED00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEC2C6943ED00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A888DD02C6943EB00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DDA2C6943EB00B0DE19 /* ContentView.swift in Sources */,
+				6A888DD82C6943EB00B0DE19 /* KingpinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE02C6943ED00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DE92C6943ED00B0DE19 /* KingpinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEA2C6943ED00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DF32C6943ED00B0DE19 /* KingpinUITests.swift in Sources */,
+				6A888DF52C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			targetProxy = 6A888DE52C6943ED00B0DE19 /* PBXContainerItemProxy */;
+		};
+		6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			targetProxy = 6A888DEF2C6943ED00B0DE19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A888DF62C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A888DF72C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A888DF92C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kingpin/Preview Content\"";
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.Kingpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A888DFA2C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kingpin/Preview Content\"";
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.Kingpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A888DFC2C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+			};
+			name = Debug;
+		};
+		6A888DFD2C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+			};
+			name = Release;
+		};
+		6A888DFF2C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kingpin;
+			};
+			name = Debug;
+		};
+		6A888E002C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kingpin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DF62C6943ED00B0DE19 /* Debug */,
+				6A888DF72C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DF92C6943ED00B0DE19 /* Debug */,
+				6A888DFA2C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DFC2C6943ED00B0DE19 /* Debug */,
+				6A888DFD2C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DFF2C6943ED00B0DE19 /* Debug */,
+				6A888E002C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+}
