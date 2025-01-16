@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0C8B332C7274C9009AE7D0 /* seriesCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C8B322C7274C9009AE7D0 /* seriesCollector.swift */; };
+		6A0C8B372C738118009AE7D0 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C8B362C738118009AE7D0 /* customTextField.swift */; };
+		6A34B3702C7F875700995DF1 /* HowToUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A34B36F2C7F875700995DF1 /* HowToUseView.swift */; };
+		6A3D18DB2C80D829002A2EFB /* earingsOverTimeChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3D18DA2C80D829002A2EFB /* earingsOverTimeChart.swift */; };
+		6A4247652C80CCC2001893AC /* editPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4247642C80CCC2001893AC /* editPage.swift */; };
+		6A4301162C84D1DB0099BBBF /* deleteGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4301152C84D1DB0099BBBF /* deleteGameView.swift */; };
+		6A5C51552C6C1D1400F3CC29 /* camera class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5C51542C6C1D1400F3CC29 /* camera class.swift */; };
+		6A5C51572C6C288300F3CC29 /* PastGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5C51562C6C288300F3CC29 /* PastGameCard.swift */; };
+		6A888DD82C6943EB00B0DE19 /* KingpinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */; };
+		6A888DDA2C6943EB00B0DE19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DD92C6943EB00B0DE19 /* ContentView.swift */; };
+		6A888DDC2C6943ED00B0DE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */; };
+		6A888DDF2C6943ED00B0DE19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */; };
+		6A888DE92C6943ED00B0DE19 /* KingpinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */; };
+		6A888DF32C6943ED00B0DE19 /* KingpinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */; };
+		6A888DF52C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */; };
+		6A888E082C69452800B0DE19 /* tabbarview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E072C69452800B0DE19 /* tabbarview.swift */; };
+		6A888E0A2C69454D00B0DE19 /* newgameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E092C69454D00B0DE19 /* newgameView.swift */; };
+		6A888E0C2C69455900B0DE19 /* playersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E0B2C69455900B0DE19 /* playersView.swift */; };
+		6A888E0E2C69456000B0DE19 /* leaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E0D2C69456000B0DE19 /* leaderBoardView.swift */; };
+		6A888E102C69461B00B0DE19 /* loadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E0F2C69461B00B0DE19 /* loadingScreen.swift */; };
+		6A888E142C694D0A00B0DE19 /* gameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E132C694D0A00B0DE19 /* gameClass.swift */; };
+		6A888E162C694DB500B0DE19 /* playerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A888E152C694DB500B0DE19 /* playerClass.swift */; };
+		6A9A6D012C6AAC0E002479DD /* gameviewsupps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6D002C6AAC0E002479DD /* gameviewsupps.swift */; };
+		6A9A6D032C6AB996002479DD /* chartViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6D022C6AB996002479DD /* chartViews.swift */; };
+		6A9A6D052C6AFC19002479DD /* previousGamesScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A6D042C6AFC19002479DD /* previousGamesScroll.swift */; };
+		6A9B6A5A2C751A9500B2CD1D /* ListOfSeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B6A592C751A9500B2CD1D /* ListOfSeriesView.swift */; };
+		6A9B6A5C2C751C1900B2CD1D /* deleteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B6A5B2C751C1900B2CD1D /* deleteSheet.swift */; };
+		6AA5228D2C7261600078B5CF /* newGameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5228C2C7261600078B5CF /* newGameButton.swift */; };
+		6AA7BE862C695C7300295CC2 /* supplementsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7BE852C695C7300295CC2 /* supplementsViews.swift */; };
+		6AA7BE882C695C8200295CC2 /* newplayerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7BE872C695C8200295CC2 /* newplayerSheet.swift */; };
+		6AA7BE8A2C6A8FD500295CC2 /* game model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7BE892C6A8FD500295CC2 /* game model.swift */; };
+		6AA7BE8C2C6AA39900295CC2 /* playerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7BE8B2C6AA39900295CC2 /* playerProfile.swift */; };
+		6AC184B52C6C591E004E02C5 /* postgameform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC184B42C6C591E004E02C5 /* postgameform.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A888DE52C6943ED00B0DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A888DD32C6943EB00B0DE19;
+			remoteInfo = Kingpin;
+		};
+		6A888DEF2C6943ED00B0DE19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A888DD32C6943EB00B0DE19;
+			remoteInfo = Kingpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0C8B322C7274C9009AE7D0 /* seriesCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seriesCollector.swift; sourceTree = "<group>"; };
+		6A0C8B362C738118009AE7D0 /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		6A34B36F2C7F875700995DF1 /* HowToUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseView.swift; sourceTree = "<group>"; };
+		6A3D18DA2C80D829002A2EFB /* earingsOverTimeChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = earingsOverTimeChart.swift; sourceTree = "<group>"; };
+		6A4247642C80CCC2001893AC /* editPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPage.swift; sourceTree = "<group>"; };
+		6A4301152C84D1DB0099BBBF /* deleteGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteGameView.swift; sourceTree = "<group>"; };
+		6A5C51532C6C1CAC00F3CC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6A5C51542C6C1D1400F3CC29 /* camera class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "camera class.swift"; sourceTree = "<group>"; };
+		6A5C51562C6C288300F3CC29 /* PastGameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastGameCard.swift; sourceTree = "<group>"; };
+		6A888DD42C6943EB00B0DE19 /* Chipking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chipking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinApp.swift; sourceTree = "<group>"; };
+		6A888DD92C6943EB00B0DE19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinTests.swift; sourceTree = "<group>"; };
+		6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITests.swift; sourceTree = "<group>"; };
+		6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A888E072C69452800B0DE19 /* tabbarview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarview.swift; sourceTree = "<group>"; };
+		6A888E092C69454D00B0DE19 /* newgameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newgameView.swift; sourceTree = "<group>"; };
+		6A888E0B2C69455900B0DE19 /* playersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playersView.swift; sourceTree = "<group>"; };
+		6A888E0D2C69456000B0DE19 /* leaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaderBoardView.swift; sourceTree = "<group>"; };
+		6A888E0F2C69461B00B0DE19 /* loadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingScreen.swift; sourceTree = "<group>"; };
+		6A888E132C694D0A00B0DE19 /* gameClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameClass.swift; sourceTree = "<group>"; };
+		6A888E152C694DB500B0DE19 /* playerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerClass.swift; sourceTree = "<group>"; };
+		6A9A6D002C6AAC0E002479DD /* gameviewsupps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameviewsupps.swift; sourceTree = "<group>"; };
+		6A9A6D022C6AB996002479DD /* chartViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartViews.swift; sourceTree = "<group>"; };
+		6A9A6D042C6AFC19002479DD /* previousGamesScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previousGamesScroll.swift; sourceTree = "<group>"; };
+		6A9B6A592C751A9500B2CD1D /* ListOfSeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfSeriesView.swift; sourceTree = "<group>"; };
+		6A9B6A5B2C751C1900B2CD1D /* deleteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteSheet.swift; sourceTree = "<group>"; };
+		6AA5228C2C7261600078B5CF /* newGameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newGameButton.swift; sourceTree = "<group>"; };
+		6AA7BE852C695C7300295CC2 /* supplementsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supplementsViews.swift; sourceTree = "<group>"; };
+		6AA7BE872C695C8200295CC2 /* newplayerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newplayerSheet.swift; sourceTree = "<group>"; };
+		6AA7BE892C6A8FD500295CC2 /* game model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "game model.swift"; sourceTree = "<group>"; };
+		6AA7BE8B2C6AA39900295CC2 /* playerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerProfile.swift; sourceTree = "<group>"; };
+		6AC184B42C6C591E004E02C5 /* postgameform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postgameform.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A888DD12C6943EB00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE12C6943ED00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEB2C6943ED00B0DE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A5C51522C6C1A8600F3CC29 /* camera and photos */ = {
+			isa = PBXGroup;
+			children = (
+				6A5C51542C6C1D1400F3CC29 /* camera class.swift */,
+			);
+			path = "camera and photos";
+			sourceTree = "<group>";
+		};
+		6A888DCB2C6943EB00B0DE19 = {
+			isa = PBXGroup;
+			children = (
+				6A888DD62C6943EB00B0DE19 /* Kingpin */,
+				6A888DE72C6943ED00B0DE19 /* KingpinTests */,
+				6A888DF12C6943ED00B0DE19 /* KingpinUITests */,
+				6A888DD52C6943EB00B0DE19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A888DD52C6943EB00B0DE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DD42C6943EB00B0DE19 /* Chipking.app */,
+				6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */,
+				6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A888DD62C6943EB00B0DE19 /* Kingpin */ = {
+			isa = PBXGroup;
+			children = (
+				6A5C51532C6C1CAC00F3CC29 /* Info.plist */,
+				6A888E062C69445D00B0DE19 /* system */,
+				6A888E052C69442B00B0DE19 /* Leaderboard */,
+				6A888E042C69442400B0DE19 /* players */,
+				6A888E032C69441C00B0DE19 /* NewGame */,
+				6A888E022C69441400B0DE19 /* Tabbar */,
+				6A888E012C6943FC00B0DE19 /* LoadingSreen */,
+				6A888DDD2C6943ED00B0DE19 /* Preview Content */,
+			);
+			path = Kingpin;
+			sourceTree = "<group>";
+		};
+		6A888DDD2C6943ED00B0DE19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A888DE72C6943ED00B0DE19 /* KingpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */,
+			);
+			path = KingpinTests;
+			sourceTree = "<group>";
+		};
+		6A888DF12C6943ED00B0DE19 /* KingpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */,
+				6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */,
+			);
+			path = KingpinUITests;
+			sourceTree = "<group>";
+		};
+		6A888E012C6943FC00B0DE19 /* LoadingSreen */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B6A582C751A6E00B2CD1D /* Loading Sceen Supps */,
+				6A888E0F2C69461B00B0DE19 /* loadingScreen.swift */,
+				6A0C8B322C7274C9009AE7D0 /* seriesCollector.swift */,
+			);
+			name = LoadingSreen;
+			sourceTree = "<group>";
+		};
+		6A888E022C69441400B0DE19 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6A888E072C69452800B0DE19 /* tabbarview.swift */,
+				6A888E132C694D0A00B0DE19 /* gameClass.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6A888E032C69441C00B0DE19 /* NewGame */ = {
+			isa = PBXGroup;
+			children = (
+				6AC184B32C6C590A004E02C5 /* POSTGAMEFORM */,
+				6A5C51522C6C1A8600F3CC29 /* camera and photos */,
+				6A9A6CFF2C6AABF5002479DD /* game form Supplements */,
+				6A888E092C69454D00B0DE19 /* newgameView.swift */,
+				6AA7BE892C6A8FD500295CC2 /* game model.swift */,
+			);
+			path = NewGame;
+			sourceTree = "<group>";
+		};
+		6A888E042C69442400B0DE19 /* players */ = {
+			isa = PBXGroup;
+			children = (
+				6AA7BE842C695C5700295CC2 /* supplementViews */,
+				6A888E0B2C69455900B0DE19 /* playersView.swift */,
+				6A888E152C694DB500B0DE19 /* playerClass.swift */,
+			);
+			path = players;
+			sourceTree = "<group>";
+		};
+		6A888E052C69442B00B0DE19 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				6A888E0D2C69456000B0DE19 /* leaderBoardView.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		6A888E062C69445D00B0DE19 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */,
+				6A888DD72C6943EB00B0DE19 /* KingpinApp.swift */,
+				6A888DD92C6943EB00B0DE19 /* ContentView.swift */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		6A9A6CFF2C6AABF5002479DD /* game form Supplements */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A6D002C6AAC0E002479DD /* gameviewsupps.swift */,
+				6A5C51562C6C288300F3CC29 /* PastGameCard.swift */,
+				6A4301152C84D1DB0099BBBF /* deleteGameView.swift */,
+			);
+			path = "game form Supplements";
+			sourceTree = "<group>";
+		};
+		6A9B6A582C751A6E00B2CD1D /* Loading Sceen Supps */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C8B362C738118009AE7D0 /* customTextField.swift */,
+				6AA5228C2C7261600078B5CF /* newGameButton.swift */,
+				6A9B6A592C751A9500B2CD1D /* ListOfSeriesView.swift */,
+				6A9B6A5B2C751C1900B2CD1D /* deleteSheet.swift */,
+				6A34B36F2C7F875700995DF1 /* HowToUseView.swift */,
+			);
+			name = "Loading Sceen Supps";
+			sourceTree = "<group>";
+		};
+		6AA7BE842C695C5700295CC2 /* supplementViews */ = {
+			isa = PBXGroup;
+			children = (
+				6AA7BE852C695C7300295CC2 /* supplementsViews.swift */,
+				6AA7BE872C695C8200295CC2 /* newplayerSheet.swift */,
+				6AA7BE8B2C6AA39900295CC2 /* playerProfile.swift */,
+				6A9A6D022C6AB996002479DD /* chartViews.swift */,
+				6A9A6D042C6AFC19002479DD /* previousGamesScroll.swift */,
+				6A4247642C80CCC2001893AC /* editPage.swift */,
+				6A3D18DA2C80D829002A2EFB /* earingsOverTimeChart.swift */,
+			);
+			path = supplementViews;
+			sourceTree = "<group>";
+		};
+		6AC184B32C6C590A004E02C5 /* POSTGAMEFORM */ = {
+			isa = PBXGroup;
+			children = (
+				6AC184B42C6C591E004E02C5 /* postgameform.swift */,
+			);
+			path = POSTGAMEFORM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A888DD32C6943EB00B0DE19 /* Kingpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */;
+			buildPhases = (
+				6A888DD02C6943EB00B0DE19 /* Sources */,
+				6A888DD12C6943EB00B0DE19 /* Frameworks */,
+				6A888DD22C6943EB00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingpin;
+			productName = Kingpin;
+			productReference = 6A888DD42C6943EB00B0DE19 /* Chipking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A888DE32C6943ED00B0DE19 /* KingpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */;
+			buildPhases = (
+				6A888DE02C6943ED00B0DE19 /* Sources */,
+				6A888DE12C6943ED00B0DE19 /* Frameworks */,
+				6A888DE22C6943ED00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */,
+			);
+			name = KingpinTests;
+			productName = KingpinTests;
+			productReference = 6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A888DED2C6943ED00B0DE19 /* KingpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */;
+			buildPhases = (
+				6A888DEA2C6943ED00B0DE19 /* Sources */,
+				6A888DEB2C6943ED00B0DE19 /* Frameworks */,
+				6A888DEC2C6943ED00B0DE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */,
+			);
+			name = KingpinUITests;
+			productName = KingpinUITests;
+			productReference = 6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A888DCC2C6943EB00B0DE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6A888DD32C6943EB00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6A888DE32C6943ED00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A888DD32C6943EB00B0DE19;
+					};
+					6A888DED2C6943ED00B0DE19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A888DD32C6943EB00B0DE19;
+					};
+				};
+			};
+			buildConfigurationList = 6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A888DCB2C6943EB00B0DE19;
+			productRefGroup = 6A888DD52C6943EB00B0DE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A888DD32C6943EB00B0DE19 /* Kingpin */,
+				6A888DE32C6943ED00B0DE19 /* KingpinTests */,
+				6A888DED2C6943ED00B0DE19 /* KingpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A888DD22C6943EB00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DDF2C6943ED00B0DE19 /* Preview Assets.xcassets in Resources */,
+				6A888DDC2C6943ED00B0DE19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE22C6943ED00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEC2C6943ED00B0DE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A888DD02C6943EB00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9B6A5A2C751A9500B2CD1D /* ListOfSeriesView.swift in Sources */,
+				6A888E0C2C69455900B0DE19 /* playersView.swift in Sources */,
+				6A888E142C694D0A00B0DE19 /* gameClass.swift in Sources */,
+				6A3D18DB2C80D829002A2EFB /* earingsOverTimeChart.swift in Sources */,
+				6A0C8B332C7274C9009AE7D0 /* seriesCollector.swift in Sources */,
+				6A34B3702C7F875700995DF1 /* HowToUseView.swift in Sources */,
+				6A5C51552C6C1D1400F3CC29 /* camera class.swift in Sources */,
+				6AA7BE8A2C6A8FD500295CC2 /* game model.swift in Sources */,
+				6A9A6D032C6AB996002479DD /* chartViews.swift in Sources */,
+				6AA5228D2C7261600078B5CF /* newGameButton.swift in Sources */,
+				6A888DDA2C6943EB00B0DE19 /* ContentView.swift in Sources */,
+				6A9B6A5C2C751C1900B2CD1D /* deleteSheet.swift in Sources */,
+				6A0C8B372C738118009AE7D0 /* customTextField.swift in Sources */,
+				6A4247652C80CCC2001893AC /* editPage.swift in Sources */,
+				6A9A6D012C6AAC0E002479DD /* gameviewsupps.swift in Sources */,
+				6A888E162C694DB500B0DE19 /* playerClass.swift in Sources */,
+				6A888E082C69452800B0DE19 /* tabbarview.swift in Sources */,
+				6AC184B52C6C591E004E02C5 /* postgameform.swift in Sources */,
+				6A888DD82C6943EB00B0DE19 /* KingpinApp.swift in Sources */,
+				6A888E0E2C69456000B0DE19 /* leaderBoardView.swift in Sources */,
+				6AA7BE882C695C8200295CC2 /* newplayerSheet.swift in Sources */,
+				6A888E0A2C69454D00B0DE19 /* newgameView.swift in Sources */,
+				6AA7BE8C2C6AA39900295CC2 /* playerProfile.swift in Sources */,
+				6A5C51572C6C288300F3CC29 /* PastGameCard.swift in Sources */,
+				6A9A6D052C6AFC19002479DD /* previousGamesScroll.swift in Sources */,
+				6A888E102C69461B00B0DE19 /* loadingScreen.swift in Sources */,
+				6AA7BE862C695C7300295CC2 /* supplementsViews.swift in Sources */,
+				6A4301162C84D1DB0099BBBF /* deleteGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DE02C6943ED00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DE92C6943ED00B0DE19 /* KingpinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A888DEA2C6943ED00B0DE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A888DF32C6943ED00B0DE19 /* KingpinUITests.swift in Sources */,
+				6A888DF52C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			targetProxy = 6A888DE52C6943ED00B0DE19 /* PBXContainerItemProxy */;
+		};
+		6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			targetProxy = 6A888DEF2C6943ED00B0DE19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A888DF62C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A888DF72C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A888DF92C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kingpin/Preview Content\"";
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kingpin/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.Chipking;
+				PRODUCT_NAME = Chipking;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A888DFA2C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kingpin/Preview Content\"";
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kingpin/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.Chipking;
+				PRODUCT_NAME = Chipking;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A888DFC2C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+			};
+			name = Debug;
+		};
+		6A888DFD2C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+			};
+			name = Release;
+		};
+		6A888DFF2C6943ED00B0DE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kingpin;
+			};
+			name = Debug;
+		};
+		6A888E002C6943ED00B0DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 447UCDW9AP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kingpin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DF62C6943ED00B0DE19 /* Debug */,
+				6A888DF72C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DF92C6943ED00B0DE19 /* Debug */,
+				6A888DFA2C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DFC2C6943ED00B0DE19 /* Debug */,
+				6A888DFD2C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A888DFF2C6943ED00B0DE19 /* Debug */,
+				6A888E002C6943ED00B0DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A888DCC2C6943EB00B0DE19 /* Project object */;
+}
