@@ -1,7 +1,6 @@
 <img width="1000" alt="ChipKing Banner" src="https://github.com/user-attachments/assets/db67503f-108b-4260-9aa5-e351d41b74f3" />
 
-ChipKing is a SwiftUI iOS app for tracking poker series results.  
-You can manage multiple series, add players, record games, and view leaderboard/stat trends over time.
+ChipKing is a SwiftUI iOS app for tracking poker series results. I built it because my friends and I wanted a way to figure out who was actually the best poker player. With ChipKing, you can manage multiple series, add players, record games, and view leaderboard and stat trends over time. It used to be on the App Store, but I didn’t want to keep paying the Apple Developer fees.
 
 ## Features
 
