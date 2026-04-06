@@ -74,9 +74,9 @@
 		6A888DD92C6943EB00B0DE19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A888DDB2C6943ED00B0DE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A888DDE2C6943ED00B0DE19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DE42C6943ED00B0DE19 /* ChipkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A888DE82C6943ED00B0DE19 /* KingpinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinTests.swift; sourceTree = "<group>"; };
-		6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A888DEE2C6943ED00B0DE19 /* ChipkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A888DF22C6943ED00B0DE19 /* KingpinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITests.swift; sourceTree = "<group>"; };
 		6A888DF42C6943ED00B0DE19 /* KingpinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingpinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6A888E072C69452800B0DE19 /* tabbarview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarview.swift; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				6A888DD42C6943EB00B0DE19 /* Chipking.app */,
-				6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */,
-				6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */,
+				6A888DE42C6943ED00B0DE19 /* ChipkingTests.xctest */,
+				6A888DEE2C6943ED00B0DE19 /* ChipkingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,9 +298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A888DD32C6943EB00B0DE19 /* Kingpin */ = {
+		6A888DD32C6943EB00B0DE19 /* Chipking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */;
+			buildConfigurationList = 6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Chipking" */;
 			buildPhases = (
 				6A888DD02C6943EB00B0DE19 /* Sources */,
 				6A888DD12C6943EB00B0DE19 /* Frameworks */,
@@ -310,14 +310,14 @@
 			);
 			dependencies = (
 			);
-			name = Kingpin;
+			name = Chipking;
 			productName = Kingpin;
 			productReference = 6A888DD42C6943EB00B0DE19 /* Chipking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6A888DE32C6943ED00B0DE19 /* KingpinTests */ = {
+		6A888DE32C6943ED00B0DE19 /* ChipkingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */;
+			buildConfigurationList = 6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "ChipkingTests" */;
 			buildPhases = (
 				6A888DE02C6943ED00B0DE19 /* Sources */,
 				6A888DE12C6943ED00B0DE19 /* Frameworks */,
@@ -328,14 +328,14 @@
 			dependencies = (
 				6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */,
 			);
-			name = KingpinTests;
+			name = ChipkingTests;
 			productName = KingpinTests;
-			productReference = 6A888DE42C6943ED00B0DE19 /* KingpinTests.xctest */;
+			productReference = 6A888DE42C6943ED00B0DE19 /* ChipkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6A888DED2C6943ED00B0DE19 /* KingpinUITests */ = {
+		6A888DED2C6943ED00B0DE19 /* ChipkingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */;
+			buildConfigurationList = 6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "ChipkingUITests" */;
 			buildPhases = (
 				6A888DEA2C6943ED00B0DE19 /* Sources */,
 				6A888DEB2C6943ED00B0DE19 /* Frameworks */,
@@ -346,9 +346,9 @@
 			dependencies = (
 				6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */,
 			);
-			name = KingpinUITests;
+			name = ChipkingUITests;
 			productName = KingpinUITests;
-			productReference = 6A888DEE2C6943ED00B0DE19 /* KingpinUITests.xctest */;
+			productReference = 6A888DEE2C6943ED00B0DE19 /* ChipkingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */;
+			buildConfigurationList = 6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Chipking" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -387,9 +387,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A888DD32C6943EB00B0DE19 /* Kingpin */,
-				6A888DE32C6943ED00B0DE19 /* KingpinTests */,
-				6A888DED2C6943ED00B0DE19 /* KingpinUITests */,
+				6A888DD32C6943EB00B0DE19 /* Chipking */,
+				6A888DE32C6943ED00B0DE19 /* ChipkingTests */,
+				6A888DED2C6943ED00B0DE19 /* ChipkingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -478,12 +478,12 @@
 /* Begin PBXTargetDependency section */
 		6A888DE62C6943ED00B0DE19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			target = 6A888DD32C6943EB00B0DE19 /* Chipking */;
 			targetProxy = 6A888DE52C6943ED00B0DE19 /* PBXContainerItemProxy */;
 		};
 		6A888DF02C6943ED00B0DE19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A888DD32C6943EB00B0DE19 /* Kingpin */;
+			target = 6A888DD32C6943EB00B0DE19 /* Chipking */;
 			targetProxy = 6A888DEF2C6943ED00B0DE19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -624,7 +624,6 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -635,7 +634,7 @@
 				PRODUCT_NAME = Chipking;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -655,7 +654,6 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -666,7 +664,7 @@
 				PRODUCT_NAME = Chipking;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -679,14 +677,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 447UCDW9AP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chipking/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.ChipkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chipking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chipking";
 			};
 			name = Debug;
 		};
@@ -699,14 +698,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 447UCDW9AP;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chipking/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.KingpinTests;
+				PRODUCT_BUNDLE_IDENTIFIER = JavierFriedman.ChipkingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kingpin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kingpin";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chipking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chipking";
 			};
 			name = Release;
 		};
@@ -723,7 +723,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Kingpin;
 			};
 			name = Debug;
@@ -741,7 +741,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Kingpin;
 			};
 			name = Release;
@@ -749,7 +749,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Kingpin" */ = {
+		6A888DCF2C6943EB00B0DE19 /* Build configuration list for PBXProject "Chipking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A888DF62C6943ED00B0DE19 /* Debug */,
@@ -758,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Kingpin" */ = {
+		6A888DF82C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "Chipking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A888DF92C6943ED00B0DE19 /* Debug */,
@@ -767,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinTests" */ = {
+		6A888DFB2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "ChipkingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A888DFC2C6943ED00B0DE19 /* Debug */,
@@ -776,7 +776,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "KingpinUITests" */ = {
+		6A888DFE2C6943ED00B0DE19 /* Build configuration list for PBXNativeTarget "ChipkingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A888DFF2C6943ED00B0DE19 /* Debug */,

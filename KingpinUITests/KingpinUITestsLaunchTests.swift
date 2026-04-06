@@ -19,6 +19,7 @@ final class KingpinUITestsLaunchTests: XCTestCase {
 
     func testLaunch() throws {
         let app = XCUIApplication()
+        app.launchArguments.append("--ui-testing")
         app.launch()
 
         // Insert steps here to perform after app launch but before taking a screenshot,
@@ -28,5 +29,13 @@ final class KingpinUITestsLaunchTests: XCTestCase {
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
         add(attachment)
+    }
+
+    func testLaunchStateIsForeground() throws {
+        let app = XCUIApplication()
+        app.launchArguments.append("--ui-testing")
+        app.launch()
+
+        XCTAssertEqual(app.state, .runningForeground)
     }
 }

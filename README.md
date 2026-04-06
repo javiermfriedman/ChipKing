@@ -1,1 +1,79 @@
 # ChipKing
+
+ChipKing is a SwiftUI iOS app for tracking poker series results.  
+You can manage multiple series, add players, record games, and view leaderboard/stat trends over time.
+
+## Features
+
+- Create and manage multiple poker series
+- Add players with profile images
+- Record game buy-ins and results
+- Track historical games per series
+- View player stats and leaderboard rankings
+- Persist data locally on device (JSON files in Documents)
+
+## Tech Stack
+
+- Swift
+- SwiftUI
+- Xcode project (`Chipking.xcodeproj`)
+- Local file persistence using `Codable` + JSON
+
+## Project Structure
+
+```text
+ChipKing/
+├── Kingpin/                         # Main app module
+│   ├── system/                      # App entrypoint, ContentView, assets
+│   ├── Tabbar/                      # Main tab container + Series model
+│   ├── NewGame/                     # New game flow and related UI/components
+│   ├── players/                     # Player management, profile, charts
+│   ├── Leaderboard/                 # Leaderboard screen
+│   └── *.swift                      # Shared/supporting views and models
+├── Chipking.xcodeproj/              # Xcode project settings and schemes
+├── LICENSE
+└── README.md
+```
+
+## Getting Started
+
+### Requirements
+
+- macOS
+- Xcode 15+
+- iOS Simulator or iOS device
+
+### Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone <your-repo-url>
+   cd Kingpin
+   ```
+2. Open the project in Xcode:
+   - `Chipking.xcodeproj`
+3. Select an iOS Simulator
+4. Build and run (`Cmd + R`)
+
+## Data Storage
+
+ChipKing currently stores data locally using JSON files:
+
+- `series_data.json` (all series metadata)
+- `players_<series>.json` (players for a series)
+- `past_games_<series>.json` (games for a series)
+- `<player>_gameStats.json` (per-player history)
+
+No backend service is required for current functionality.
+
+## Roadmap
+
+- Improve README screenshots and usage docs
+- Add tests for core models and persistence
+- Add CI build checks
+- Optional cloud sync / backup support
+
+## License
+
+This project is licensed under the MIT License.  
+See `LICENSE` for details.
