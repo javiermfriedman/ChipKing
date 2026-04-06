@@ -1,4 +1,4 @@
-<img width="1532" height="566" alt="Image" src="https://github.com/user-attachments/assets/db67503f-108b-4260-9aa5-e351d41b74f3" />
+<img width="1000" alt="ChipKing Banner" src="https://github.com/user-attachments/assets/db67503f-108b-4260-9aa5-e351d41b74f3" />
 
 ChipKing is a SwiftUI iOS app for tracking poker series results.  
 You can manage multiple series, add players, record games, and view leaderboard/stat trends over time.
@@ -12,7 +12,7 @@ You can manage multiple series, add players, record games, and view leaderboard/
 - View player stats and leaderboard rankings
 - Persist data locally on device (JSON files in Documents)
 
-<img width="701" height="246" alt="Image" src="https://github.com/user-attachments/assets/532c589b-1e77-4092-9b23-05b06881e2a3" />
+<img width="1000" alt="ChipKing App Preview" src="https://github.com/user-attachments/assets/532c589b-1e77-4092-9b23-05b06881e2a3" />
 
 ## Tech Stack
 
