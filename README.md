@@ -12,6 +12,8 @@ You can manage multiple series, add players, record games, and view leaderboard/
 - View player stats and leaderboard rankings
 - Persist data locally on device (JSON files in Documents)
 
+<img width="701" height="246" alt="Image" src="https://github.com/user-attachments/assets/532c589b-1e77-4092-9b23-05b06881e2a3" />
+
 ## Tech Stack
 
 - Swift
