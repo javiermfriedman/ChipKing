@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/6a58e6d8-17ab-4930-9292-95ba4a24fcaf)
+<img width="1532" height="566" alt="Image" src="https://github.com/user-attachments/assets/db67503f-108b-4260-9aa5-e351d41b74f3" />
 
 ChipKing is a SwiftUI iOS app for tracking poker series results.  
 You can manage multiple series, add players, record games, and view leaderboard/stat trends over time.
