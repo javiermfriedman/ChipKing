@@ -64,14 +64,13 @@ ChipKing currently stores data locally using JSON files:
 - `past_games_<series>.json` (games for a series)
 - `<player>_gameStats.json` (per-player history)
 
-No backend service is required for current functionality.
+## Testing
 
-## Roadmap
+This project includes both unit tests and UI tests:
 
-- Improve README screenshots and usage docs
-- Add tests for core models and persistence
-- Add CI build checks
-- Optional cloud sync / backup support
+- `KingpinTests` for model/statistics logic
+- `KingpinUITests` for launch and basic UI smoke coverage
+
 
 ## License
 
